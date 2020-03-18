@@ -1,11 +1,12 @@
 .footer {
-    background: #ECF1ED;
+    /* background: #febf00; */
+    background: #031f9a;
 }
 .footer p {
     padding: 2em 0;
     text-align: left;
     font-size: 14px;
-    color: #E55742;
+    color: #febf00;
     letter-spacing: 2px;
     font-weight: 100;
 }
@@ -23,9 +24,9 @@
 }
 .socialBtn ul li a span {
     font-size: 15px;
-    color: #E55742;
+    color: #031f9a;
     text-align: center;
-    border: 1px solid #E55742;
+    border: 1px solid #febf00;
     width: 40px;
     height: 40px;
     background: #fff;
@@ -39,7 +40,7 @@
 }
 .socialBtn ul li a span:hover {
     color: #000000;
-    background: #E55742;
+    background: #febf00;
 }
 
 @media (max-width: 1366px) {

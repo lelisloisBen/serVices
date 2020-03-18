@@ -57,3 +57,9 @@
     -ms-transition: .5s ease-in;
     border-radius: 0px;
 }
+
+.aboutLeft {
+    background: url(../../../img/home/about.jpg) no-repeat center;
+    background-size: cover;
+    padding: 0;
+}

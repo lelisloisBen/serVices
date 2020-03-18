@@ -21,23 +21,24 @@ function App() {
     };
   },[])
 
+  const providerValue = useMemo(() => ({ windowHeight }), [ windowHeight ]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <UserContext.Provider value={providerValue}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <JobTrialNavbar/>
+          <section style={{minHeight: windowHeight}}>
+            <Switch>
+              {!tokenAuth ? <Route exact path="/" component={Home} /> : <Route exact path="/" component={LoggedHome}/> }
+              <Route path="/login" component={Login} />
+              <Route render={() => <NotFound/>} />
+            </Switch>
+            </section>
+          <Footer/>
+        </Suspense>
+      </UserContext.Provider>
+    </Router>
   );
 }
 

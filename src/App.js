@@ -5,7 +5,7 @@ import { UserContext } from './UserContext';
 
 import Footer from './js/components/Footer/Footer';
 import NotFound from './js/components/NotFound/NotFound';
-import ServiceNavbar from './js/components/navbar/navbar';
+import ServiceNavbar from './js/components/Navbar/Navbar';
 
 const Home = lazy(() => import('./js/views/home/home'));
 const Login = lazy(() => import('./js/views/Login/Login'));

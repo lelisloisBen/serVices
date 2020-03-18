@@ -1,8 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Suspense, lazy, useState, useMemo, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
+import { UserContext } from './UserContext';
+
+import Footer from './js/components/Footer/Footer';
+import NotFound from './js/components/NotFound/NotFound';
+
+const Home = lazy(() => import('./js/views/Home/Home'));
+const Login = lazy(() => import('./js/views/Login/Login'));
 
 function App() {
+
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+  
   return (
     <div className="App">
       <header className="App-header">

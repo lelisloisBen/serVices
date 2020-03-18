@@ -7,6 +7,10 @@
     margin-bottom: 2%;
 }
 
+.bannerMain {
+        display: flex;
+}
+
 .bannerBox1 {
     background: #031f9a;
     padding: 2.5em;

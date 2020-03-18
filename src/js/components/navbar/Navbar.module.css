@@ -1,13 +1,15 @@
 .navBarI {
-    background-color: transparent;
+    background-color: #031f9a;
+    color: white;
 }
 .links {
-    color: #000000;
+    color: #ffffff;
     padding: 0 8px;
     font-family: InaiMathi; 
 }
 .links:hover {
-    color:#5FAD56;
+    color:#031f9a;
+    background-color: #febf00;
 }
 .btnGreen {
     background-color: #7CD1F9!important;

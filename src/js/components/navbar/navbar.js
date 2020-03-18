@@ -13,7 +13,7 @@ const JobTrialNavbar = () => {
     return (
         <>
         <nav className={["navbar fixed-top navbar-expand-lg navbar-light", styles.navBarI].join(' ')}>
-            <div className="container-fluid">
+            <div className="container">
                 <ul className="nav navbar-nav navbar-left mobile">
                     <Link className={styles.links} to="/">
                         HOME

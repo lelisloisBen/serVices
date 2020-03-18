@@ -65,5 +65,10 @@
 .aboutLeft {
     background: url(../../../img/home/about.jpg) no-repeat center;
     background-size: cover;
-    padding: 0;
+    min-height: 498px;
+    /* padding: 0; */
+}
+.leftMain {
+    background: rgba(254, 191, 0, 0.74);
+    padding-top: 150px;
 }

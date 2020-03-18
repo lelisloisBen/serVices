@@ -98,7 +98,9 @@ const Home = () => {
             <div className={styles.aboutMain}>
                 <div className="row">
                     <div className={["col-md-4", styles.aboutLeft].join(' ')}>
-                        here
+                        <div className={styles.leftMain}>
+                            <h4>Why Us</h4>
+                        </div>
                     </div>
                 </div>
             </div>

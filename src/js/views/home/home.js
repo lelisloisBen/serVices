@@ -6,6 +6,7 @@ import bg2 from '../../../img/home/bg2.jpg';
 import bg3 from '../../../img/home/bg3.jpg';
 
 const Home = () => {
+    
     return (
         <div className={styles.main}>
             <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">

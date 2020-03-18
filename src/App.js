@@ -8,6 +8,7 @@ import NotFound from './js/components/NotFound/NotFound';
 
 const Home = lazy(() => import('./js/views/home/home'));
 const Login = lazy(() => import('./js/views/Login/Login'));
+const LoggedHome = lazy(() => import('./js/views/LoggedHome/LoggedHome'));
 
 function App() {
 

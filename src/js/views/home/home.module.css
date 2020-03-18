@@ -23,3 +23,37 @@
     text-align: center;
     margin-bottom: 2.6em;
 }
+.bannerSub1 p {
+    color: #fff;
+    width: 86%;
+    margin: 26px auto;
+}
+.bannerSub1 h3 {
+    color: #febf00;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.bannerSub1 span {
+    font-size: 90px;
+    color: #ffffff;
+    opacity: 0.1;
+    position: absolute;
+    top: 38px;
+    left: 8%;
+}
+.bannerBtn a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 16px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    border: 2px solid #fff;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    border-radius: 0px;
+}

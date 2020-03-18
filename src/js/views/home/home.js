@@ -30,8 +30,8 @@ const Home = () => {
                             <div className={styles.bannerSub1}>
                                 <h3>improvement</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.</p>
-                                <span className="fa fa-gg" aria-hidden="true"></span>
-                                <div className="read-btn">
+                                <span className="fab fa-gg" aria-hidden="true"></span>
+                                <div className={styles.bannerBtn}>
                                     <a href="about.html">view more</a>
                                 </div>
                             </div>
@@ -40,8 +40,8 @@ const Home = () => {
                             <div className={styles.bannerSub1}>
                                 <h3>cleaning</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.</p>
-                                <span className="fa fa-check-square-o" aria-hidden="true"></span>
-                                <div className="read-btn">
+                                <span className="far fa-check-square" aria-hidden="true"></span>
+                                <div className={styles.bannerBtn}>
                                     <a href="about.html">view more</a>
                                 </div>
                             </div>
@@ -50,8 +50,8 @@ const Home = () => {
                             <div className={styles.bannerSub1}>
                                 <h3>maintenance</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.</p>
-                                <span className="fa fa-cog" aria-hidden="true"></span>
-                                <div className="read-btn">
+                                <span className="fas fa-cog" aria-hidden="true"></span>
+                                <div className={styles.bannerBtn}>
                                     <a href="about.html">view more</a>
                                 </div>
                             </div>
@@ -64,8 +64,8 @@ const Home = () => {
                             <div className={styles.bannerSub1}>
                                 <h3>repair</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.</p>
-                                <span className="fa fa-yelp" aria-hidden="true"></span>
-                                <div className="read-btn">
+                                <span className="fab fa-yelp" aria-hidden="true"></span>
+                                <div className={styles.bannerBtn}>
                                     <a href="about.html">view more</a>
                                 </div>
                             </div>
@@ -74,8 +74,8 @@ const Home = () => {
                             <div className={styles.bannerSub1}>
                                 <h3>improvement</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.</p>
-                                <span className="fa fa-gg" aria-hidden="true"></span>
-                                <div className="read-btn">
+                                <span className="fab fa-gg" aria-hidden="true"></span>
+                                <div className={styles.bannerBtn}>
                                     <a href="about.html">view more</a>
                                 </div>
                             </div>
@@ -84,8 +84,8 @@ const Home = () => {
                             <div className={styles.bannerSub1}>
                                 <h3>cleaning</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.</p>
-                                <span className="fa fa-check-square-o" aria-hidden="true"></span>
-                                <div className="read-btn">
+                                <span className="far fa-check-square" aria-hidden="true"></span>
+                                <div className={styles.bannerBtn}>
                                     <a href="about.html">view more</a>
                                 </div>
                             </div>

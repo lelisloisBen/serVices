@@ -1,3 +1,14 @@
 .main {
     padding-top: 60px;
 }
+
+.bannerServices {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bannerBox1 {
+    background: #031f9a;
+    padding: 2.5em;
+    width: 45%;
+}

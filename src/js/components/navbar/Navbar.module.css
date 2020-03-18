@@ -6,10 +6,13 @@
     color: #ffffff;
     padding: 0 8px;
     font-family: InaiMathi; 
+    text-decoration: none;
+    padding: 10px 20px;
 }
 .links:hover {
     color:#031f9a;
     background-color: #febf00;
+    text-decoration: none;
 }
 .btnGreen {
     background-color: #7CD1F9!important;

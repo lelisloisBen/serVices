@@ -58,6 +58,10 @@
     border-radius: 0px;
 }
 
+.aboutMain {
+    background: #febf00;
+}
+
 .aboutLeft {
     background: url(../../../img/home/about.jpg) no-repeat center;
     background-size: cover;

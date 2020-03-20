@@ -155,12 +155,12 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container my-5">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className={["col-md-6", styles.section3Left].join(' ')}>
                         <img src="" alt=""/>
                     </div>
-                    <div className="col-md-6">
+                    <div className={["col-md-6", styles.section3Right].join(' ')}>
                     Service You Can Trust
 Protect All Your Home Appliances & Systems.
                     </div>

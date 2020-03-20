@@ -108,6 +108,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                    <div className={["col-md-8", styles.aboutRight].join(' ')}>
+                        bla bla bla
+                    </div>
                 </div>
             </div>
 

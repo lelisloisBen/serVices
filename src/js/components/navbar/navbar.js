@@ -36,9 +36,6 @@ const JobTrialNavbar = () => {
                             <Link to="/login" className={styles.links}> 
                                 LogIn
                             </Link>
-                            {/* <Link to="/register" className={styles.links}> 
-                                Register
-                            </Link> */}
                         </li>
                     : 
                         <li>

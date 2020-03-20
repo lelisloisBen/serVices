@@ -20,9 +20,17 @@ const Home = () => {
                     </div>
                     <div className="carousel-item">
                         <img src={bg2} className="d-block w-100" alt="bg2" />
+                        <div className={["d-none d-md-block", styles.carouselCaption].join(' ')}>
+                            <h1>One Click Repair Service</h1>
+                            <p>Let us do it for you.</p>
+                        </div>
                     </div>
                     <div className="carousel-item">
                         <img src={bg3} className="d-block w-100" alt="bg3" />
+                        <div className={["d-none d-md-block", styles.carouselCaption].join(' ')}>
+                            <h1>One Stop Home Services</h1>
+                            <p>Let us do it for you.</p>
+                        </div>
                     </div>
                 </div>
             </div>

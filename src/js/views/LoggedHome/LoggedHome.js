@@ -8,7 +8,7 @@ const LoggedHome = () => {
 
     return (
         <>
-            <section className={styles.section}>
+            <section className={styles.main}>
                 <div className="container">
                     <h1>You are Logged Now</h1>
                 </div>    

@@ -16,53 +16,14 @@ const LoggedHome = () => {
                     <div className="row">
 
                         
-                        <div className={["col-md-4 col-sm-6", styles.cardMain].join(' ')}>
-                            <div className={styles.cardSubMain}>
-                                <div className={styles.cardImgHolder}>
-                                    <a href="single.html">
-                                        <img src={img} className="img-responsive zoom-img" alt="" width="100%" />
-                                    </a>
-                                </div>
-                                <div className="news-gridimgtext">
-                                    <a href="single.html">
-                                        <h4>home Maintenance</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida mauris non mi gravida, at sollicitudin. </p>
-                                </div>
-                            </div>
+                    <div class="card mb-3">
+                        <img src={img} class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
-
-                        <div className={["col-md-4 col-sm-6", styles.cardMain].join(' ')}>
-                            <div className={styles.cardSubMain}>
-                                <div className={styles.cardImgHolder}>
-                                    <a href="single.html">
-                                        <img src={img} className="img-responsive zoom-img" alt="" width="100%" />
-                                    </a>
-                                </div>
-                                <div className="news-gridimgtext">
-                                    <a href="single.html">
-                                        <h4>home Maintenance</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida mauris non mi gravida, at sollicitudin. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={["col-md-4 col-sm-6", styles.cardMain].join(' ')}>
-                            <div className={styles.cardSubMain}>
-                                <div className={styles.cardImgHolder}>
-                                    <a href="single.html">
-                                        <img src={img} className="img-responsive zoom-img" alt="" width="100%" />
-                                    </a>
-                                </div>
-                                <div className="news-gridimgtext">
-                                    <a href="single.html">
-                                        <h4>home Maintenance</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida mauris non mi gravida, at sollicitudin. </p>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
 
                     </div>
                 </div>    

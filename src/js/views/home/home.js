@@ -9,7 +9,10 @@ const Home = () => {
 
     return (
         <div className={styles.main}>
-            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
+            <div className="desktop">
+                <h1 className={styles.titleMobile} >serVices</h1>
+            </div>
+            <div id="carouselExampleFade" className="carousel slide carousel-fade mobile" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={bg1} className="d-block w-100" alt="bg1" />

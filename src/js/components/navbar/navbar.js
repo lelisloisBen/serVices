@@ -8,7 +8,6 @@ const JobTrialNavbar = () => {
     let tokenAuth = localStorage.getItem('token');
     let firstname = localStorage.getItem('firstname');
     let lastname = localStorage.getItem('lastname');
-    let avatar = localStorage.getItem('avatar');
 
     return (
         <>
@@ -31,6 +30,9 @@ const JobTrialNavbar = () => {
                 <ul className="nav navbar-nav navbar-right">
                     {!tokenAuth ?
                         <li>
+                            <Link to="/" className={styles.links}> 
+                                Home
+                            </Link>
                             <Link to="/login" className={styles.links}> 
                                 LogIn
                             </Link>
@@ -42,7 +44,7 @@ const JobTrialNavbar = () => {
                         <li>
                             <div className="btn-group">
                                 <button className={["dropdown-toggle", styles.dropBtn].join(' ')} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src={process.env.PUBLIC_URL + '/img/avatar/' + avatar} alt="avatar" width="30px" /> {firstname} {lastname}
+                                {firstname} {lastname}
                                 </button>
                                 <div className="dropdown-menu dropdown-menu-right">
                                     <Link className="dropdown-item" to="/" >Home</Link>

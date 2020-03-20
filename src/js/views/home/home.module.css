@@ -89,6 +89,11 @@
 .aboutRight {
     padding: 3em 3em 1em;
 }
+.aboutRight h4 {
+    font-weight: 600;
+    color: #031f9a;
+    font-size: 30px;
+}
 .aboutIcon {
     display: inline-block;
     width: 50px;

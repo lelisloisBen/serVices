@@ -77,8 +77,13 @@
     color: #031f9a;
 }
 .leftMainSub {
+    text-align: center;
     font-size: 50px;
     font-weight: bold;
     color: #000;
     text-transform: capitalize;
 }
+.leftMainSub span {
+    color: #e21111;
+}
+

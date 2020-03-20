@@ -111,7 +111,7 @@ const Home = () => {
                     <div className={["col-md-8", styles.aboutRight].join(' ')}>
                         <h4>One Stop Solution for your Complete Home Maintenance</h4>
                         <p className="p-3">
-                            <span className={["far fa-check-circle", styles.aboutIcon].join(' ')}></span> 
+                            <span className={["fas fa-check", styles.aboutIcon].join(' ')}></span> 
                             &nbsp;
                             Vision
                         </p>

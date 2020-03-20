@@ -125,3 +125,41 @@
     background: #ebebeb;
     
 }
+.section3Right h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #031f9a;
+}
+.section3Right p {
+    margin: 10px 0;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.carouselCaption {
+    position: absolute;
+    right: 15%;
+    top: 13em;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.carouselCaption h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.carouselCaption p {
+    color: #febf00;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

@@ -13,6 +13,10 @@ const Home = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={bg1} className="d-block w-100" alt="bg1" />
+                        <div className={["d-none d-md-block", styles.carouselCaption].join(' ')}>
+                            <h1>One Stop Home Services</h1>
+                            <p>Let us do it for you.</p>
+                        </div>
                     </div>
                     <div className="carousel-item">
                         <img src={bg2} className="d-block w-100" alt="bg2" />
@@ -161,8 +165,9 @@ const Home = () => {
                         <img src="" alt=""/>
                     </div>
                     <div className={["col-md-6", styles.section3Right].join(' ')}>
-                    Service You Can Trust
-Protect All Your Home Appliances & Systems.
+                        <h4>Service You Can Trust</h4> 
+                        <p>Protect All Your Home Appliances & Systems.</p>
+                        <button className="myBtn">view all services</button>
                     </div>
                 </div>
             </div>

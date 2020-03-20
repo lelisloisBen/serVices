@@ -17,8 +17,8 @@ const LoggedHome = () => {
 
                         
                         <div className={["col-md-4 col-sm-6", styles.cardMain].join(' ')}>
-                            <div className="agileits-news-gridtext">
-                                <div className="news-gridimg">
+                            <div className={styles.cardSubMain}>
+                                <div className={styles.cardImgHolder}>
                                     <a href="single.html">
                                         <img src={img} className="img-responsive zoom-img" alt="" width="100%" />
                                     </a>
@@ -33,8 +33,8 @@ const LoggedHome = () => {
                         </div>
 
                         <div className={["col-md-4 col-sm-6", styles.cardMain].join(' ')}>
-                            <div className="agileits-news-gridtext">
-                                <div className="news-gridimg">
+                            <div className={styles.cardSubMain}>
+                                <div className={styles.cardImgHolder}>
                                     <a href="single.html">
                                         <img src={img} className="img-responsive zoom-img" alt="" width="100%" />
                                     </a>
@@ -49,8 +49,8 @@ const LoggedHome = () => {
                         </div>
 
                         <div className={["col-md-4 col-sm-6", styles.cardMain].join(' ')}>
-                            <div className="agileits-news-gridtext">
-                                <div className="news-gridimg">
+                            <div className={styles.cardSubMain}>
+                                <div className={styles.cardImgHolder}>
                                     <a href="single.html">
                                         <img src={img} className="img-responsive zoom-img" alt="" width="100%" />
                                     </a>

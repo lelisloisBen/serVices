@@ -12,3 +12,6 @@
     -moz-transition: .5s all;
     transition: .5s all;
 }
+.cardImgHolder {
+    overflow: hidden;
+}

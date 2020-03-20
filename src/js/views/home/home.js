@@ -116,7 +116,7 @@ const Home = () => {
                             Vision
                         </p>
                         <p className="p-3">
-                            <span className="fas fa-book"></span>
+                            <span className={["fas fa-book", styles.aboutIcon].join(' ')}></span> 
                             &nbsp;
                             Affordable
                         </p>

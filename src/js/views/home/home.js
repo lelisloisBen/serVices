@@ -101,10 +101,10 @@ const Home = () => {
                     <div className={["col-md-4", styles.aboutLeft].join(' ')}>
                         <div className={styles.leftMain}>
                             <h4>Why</h4>
-                            <h4 className="sub">
+                            <div className={styles.leftMainSub}>
                                 <span>c</span>hoose
                                 <span>u</span>s?
-                            </h4>
+                            </div>
                         </div>
                     </div>
                 </div>

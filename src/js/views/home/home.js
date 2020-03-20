@@ -160,7 +160,10 @@ const Home = () => {
                     <div className="col-md-6">
                         <img src="" alt=""/>
                     </div>
-                    <div className="col-md-6"></div>
+                    <div className="col-md-6">
+                    Service You Can Trust
+Protect All Your Home Appliances & Systems.
+                    </div>
                 </div>
             </div>
 

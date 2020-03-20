@@ -111,22 +111,22 @@ const Home = () => {
                     <div className={["col-md-8", styles.aboutRight].join(' ')}>
                         <h4>One Stop Solution for your Complete Home Maintenance</h4>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive far fa-check-circle"></span> 
+                            <span className={["far fa-check-circle", styles.aboutIcon].join(' ')}></span> 
                             &nbsp;
                             Vision
                         </p>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive fas fa-book"></span>
+                            <span className="fas fa-book"></span>
                             &nbsp;
                             Affordable
                         </p>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive far fa-image "></span> 
+                            <span className="far fa-image "></span> 
                             &nbsp;
                             Quality
                         </p>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive fas fa-briefcase"></span> 
+                            <span className="fas fa-briefcase"></span> 
                             &nbsp;
                             24*7 Support
                         </p>

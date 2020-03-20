@@ -102,7 +102,8 @@ const Home = () => {
                         <div className={styles.leftMain}>
                             <h4>Why</h4>
                             <div className={styles.leftMainSub}>
-                                <span>c</span>hoose
+                                <span>c</span>hoose 
+                                &nbsp;
                                 <span>u</span>s?
                             </div>
                         </div>

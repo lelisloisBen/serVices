@@ -15,6 +15,7 @@ function App() {
 
   let tokenAuth = localStorage.getItem('token');
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+  const [backen_url] = useState('https://iwash-backend.herokuapp.com/');
 
   useEffect(() => {
     const handleResize = () => setWindowHeight(window.innerHeight);
@@ -24,7 +25,7 @@ function App() {
     };
   },[])
 
-  const providerValue = useMemo(() => ({ windowHeight }), [ windowHeight ]);
+  const providerValue = useMemo(() => ({ windowHeight, backen_url }), [ windowHeight, backen_url ]);
 
   return (
     <Router>

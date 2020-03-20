@@ -100,7 +100,7 @@ const Login = () => {
                 <br/>
                 
                 <button 
-                    className={["btn",styles.buttLogin].join(' ')}
+                    className="myBtn"
                     onClick={loginFormHandler}
                 >
                     Login

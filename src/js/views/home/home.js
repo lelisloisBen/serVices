@@ -111,12 +111,12 @@ const Home = () => {
                     <div className={["col-md-8", styles.aboutRight].join(' ')}>
                         <h4>One Stop Solution for your Complete Home Maintenance</h4>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive fa fa-check"></span> 
+                            <span className="hi-icon hi-icon-archive far fa-check-circle"></span> 
                             &nbsp;
                             Vision
                         </p>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive fa fa-book fa-3x"></span>
+                            <span className="hi-icon hi-icon-archive fas fa-book"></span>
                             &nbsp;
                             Vision
                         </p>
@@ -126,7 +126,7 @@ const Home = () => {
                             Vision
                         </p>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive fa fa-briefcase"></span> 
+                            <span className="hi-icon hi-icon-archive fas fa-briefcase"></span> 
                             &nbsp;
                             Vision
                         </p>

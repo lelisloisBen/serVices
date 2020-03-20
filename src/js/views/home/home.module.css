@@ -66,9 +66,12 @@
     background:linear-gradient(0deg, rgba(254, 191, 0, 0.74), rgba(254, 191, 0, 0.74)), url(../../../img/home/about.jpg) no-repeat center ;
     background-size: cover;
     min-height: 498px;
-    /* padding: 0; */
 }
 .leftMain {
-    /* background: rgba(254, 191, 0, 0.74); */
     padding-top: 150px;
+}
+.leftMain h4 {
+    font-size: 7em;
+    font-weight: bold;
+    color: #031f9a;
 }

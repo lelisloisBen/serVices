@@ -123,7 +123,7 @@ const Home = () => {
                         <p className="p-3">
                             <span className={["far fa-image", styles.aboutIcon].join(' ')}></span> 
                             &nbsp;
-                            Quality
+                            <span className={styles.aboutIconText}>Quality</span>
                         </p>
                         <p className="p-3">
                             <span className={["fas fa-briefcase", styles.aboutIcon].join(' ')}></span>

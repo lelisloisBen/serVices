@@ -109,7 +109,12 @@ const Home = () => {
                         </div>
                     </div>
                     <div className={["col-md-8", styles.aboutRight].join(' ')}>
-                        bla bla bla
+                        <h4>One Stop Solution for your Complete Home Maintenance</h4>
+                        <p>
+                            <span class="hi-icon hi-icon-archive fa fa-check"></span> 
+                            &nbsp;
+                            Vision
+                        </p>
                     </div>
                 </div>
             </div>

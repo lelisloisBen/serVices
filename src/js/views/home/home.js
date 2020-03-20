@@ -118,17 +118,17 @@ const Home = () => {
                         <p className="p-3">
                             <span className="hi-icon hi-icon-archive fas fa-book"></span>
                             &nbsp;
-                            Vision
+                            Affordable
                         </p>
                         <p className="p-3">
                             <span className="hi-icon hi-icon-archive far fa-image "></span> 
                             &nbsp;
-                            Vision
+                            Quality
                         </p>
                         <p className="p-3">
                             <span className="hi-icon hi-icon-archive fas fa-briefcase"></span> 
                             &nbsp;
-                            Vision
+                            24*7 Support
                         </p>
                     </div>
                 </div>

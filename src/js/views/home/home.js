@@ -115,6 +115,21 @@ const Home = () => {
                             &nbsp;
                             Vision
                         </p>
+                        <p className="p-3">
+                            <span className="hi-icon hi-icon-archive fa fa-book"></span>
+                            &nbsp;
+                            Vision
+                        </p>
+                        <p className="p-3">
+                            <span className="hi-icon hi-icon-archive fa fa-photo"></span> 
+                            &nbsp;
+                            Vision
+                        </p>
+                        <p className="p-3">
+                            <span className="hi-icon hi-icon-archive fa fa-briefcase"></span> 
+                            &nbsp;
+                            Vision
+                        </p>
                     </div>
                 </div>
             </div>

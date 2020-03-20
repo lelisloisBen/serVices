@@ -121,7 +121,7 @@ const Home = () => {
                             Affordable
                         </p>
                         <p className="p-3">
-                            <span className="far fa-image "></span> 
+                            <span className={["far fa-image", styles.aboutIcon].join(' ')}></span> 
                             &nbsp;
                             Quality
                         </p>

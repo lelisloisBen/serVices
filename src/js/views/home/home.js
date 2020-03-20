@@ -116,12 +116,12 @@ const Home = () => {
                             Vision
                         </p>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive fa fa-book"></span>
+                            <span className="hi-icon hi-icon-archive fa fa-book fa-3x"></span>
                             &nbsp;
                             Vision
                         </p>
                         <p className="p-3">
-                            <span className="hi-icon hi-icon-archive fa fa-photo"></span> 
+                            <span className="hi-icon hi-icon-archive far fa-image "></span> 
                             &nbsp;
                             Vision
                         </p>

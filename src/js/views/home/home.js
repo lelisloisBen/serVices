@@ -126,7 +126,7 @@ const Home = () => {
                             Quality
                         </p>
                         <p className="p-3">
-                            <span className="fas fa-briefcase"></span> 
+                            <span className={["fas fa-briefcase", styles.aboutIcon].join(' ')}></span>
                             &nbsp;
                             24*7 Support
                         </p>

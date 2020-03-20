@@ -110,20 +110,60 @@ const Home = () => {
                     </div>
                     <div className={["col-md-8", styles.aboutRight].join(' ')}>
                         <h4>One Stop Solution for your Complete Home Maintenance</h4>
-                        <p className="p-3">
-                            <span className={["fas fa-check", styles.aboutIcon].join(' ')}></span> 
-                            &nbsp;
-                            Vision
-                        </p>
-                        <p className="p-3">
-                            <span className={["fas fa-book", styles.aboutIcon].join(' ')}></span> 
-                            &nbsp;
-                            Affordable
-                        </p>
+                        <div className="row p-3">
+                            <div className="col-md-1">
+                                <span className={["fas fa-check", styles.aboutIcon].join(' ')}></span> 
+                            </div>
+                            <div className="col-md-11">
+                                <span className={styles.aboutIconText}>Vision</span>
+                                <br/>
+                                Consectetur adipiscing elit estibulum nibh urna
+                            </div>
+                        </div>
+                        <div className="row p-3">
+                            <div className="col-md-1">
+                                <span className={["fas fa-book", styles.aboutIcon].join(' ')}></span>
+                            </div>
+                            <div className="col-md-11">
+                                <span className={styles.aboutIconText}>Affordable</span>
+                                <br/>
+                                Consectetur adipiscing elit estibulum nibh urna
+                            </div>
+                        </div>
+                        <div className="row p-3">
+                            <div className="col-md-1">
+                                <span className={["fas fa-check", styles.aboutIcon].join(' ')}></span> 
+                            </div>
+                            <div className="col-md-11">
+                                <span className={styles.aboutIconText}>Vision</span>
+                                <br/>
+                                Consectetur adipiscing elit estibulum nibh urna
+                            </div>
+                        </div>
+                        <div className="row p-3">
+                            <div className="col-md-1">
+                                <span className={["fas fa-check", styles.aboutIcon].join(' ')}></span> 
+                            </div>
+                            <div className="col-md-11">
+                                <span className={styles.aboutIconText}>Vision</span>
+                                <br/>
+                                Consectetur adipiscing elit estibulum nibh urna
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        
+                       
                         <p className="p-3">
                             <span className={["far fa-image", styles.aboutIcon].join(' ')}></span> 
                             &nbsp;
                             <span className={styles.aboutIconText}>Quality</span>
+                            <br/>
+                            <span>heyu</span>
                         </p>
                         <p className="p-3">
                             <span className={["fas fa-briefcase", styles.aboutIcon].join(' ')}></span>

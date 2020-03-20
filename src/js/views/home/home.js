@@ -6,7 +6,7 @@ import bg2 from '../../../img/home/bg2.jpg';
 import bg3 from '../../../img/home/bg3.jpg';
 
 const Home = () => {
-    
+
     return (
         <div className={styles.main}>
             <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
@@ -100,7 +100,11 @@ const Home = () => {
                 <div className="row">
                     <div className={["col-md-4", styles.aboutLeft].join(' ')}>
                         <div className={styles.leftMain}>
-                            <h4>Why Us</h4>
+                            <h4>Why</h4>
+                            <h4 class="sub">
+                                <span>c</span>hoose
+                                <span>u</span>s?
+                            </h4>
                         </div>
                     </div>
                 </div>

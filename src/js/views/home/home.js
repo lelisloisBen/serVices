@@ -132,10 +132,10 @@ const Home = () => {
                         </div>
                         <div className="row p-3">
                             <div className="col-md-1">
-                                <span className={["fas fa-check", styles.aboutIcon].join(' ')}></span> 
+                                <span className={["far fa-image", styles.aboutIcon].join(' ')}></span> 
                             </div>
                             <div className="col-md-11">
-                                <span className={styles.aboutIconText}>Vision</span>
+                                <span className={styles.aboutIconText}>Quality</span>
                                 <br/>
                                 Consectetur adipiscing elit estibulum nibh urna
                             </div>

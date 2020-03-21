@@ -31,7 +31,7 @@
     background-color: transparent;
     /* border-color: #BBD5E4!important; */
     border-color: transparent;
-    color: #000000;
+    color: #ffffff;
     outline: none;
     padding: 5px 10px 5px 10px;
     border-radius: 4px;
@@ -39,7 +39,8 @@
     font-weight: bold;
 }
 .dropBtn:hover {
-    background-color: #E55742;
+    background-color: #febf00;
+    color: #031f9a;
 }
 .dropBtn:focus {
     outline: none;

@@ -18,15 +18,6 @@
 .inputForm:focus {
     border-color: #7CD1F9;
 }
-.buttLogin {
-    background-color: #7CD1F9!important;
-    border-color: #BBD5E4!important;
-    color: #000000!important;
-    font-weight: bold;
-}
-.buttLogin:hover {
-    background-color: #9BDCFA!important;
-}
 .forgotP {
     font-size: 0.8rem;
     padding-top: 1rem;

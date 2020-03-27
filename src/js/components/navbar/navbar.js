@@ -45,15 +45,15 @@ const JobTrialNavbar = () => {
                                 </button>
                                 <div className="dropdown-menu dropdown-menu-right">
                                     <Link className="dropdown-item" to="/" >
-                                        <i class="fas fa-home"></i> Home
+                                        <i className="fas fa-home"></i> Home
                                     </Link>
                                     <Link className="dropdown-item" to="/register" >
-                                        <i class="fas fa-plus-square"></i> Customer
+                                        <i className="fas fa-plus-square"></i> Customer
                                     </Link>
                                     <Link className="dropdown-item" to="/profile" >
-                                        <i class="fas fa-user"></i> my profile
+                                        <i className="fas fa-user"></i> my profile
                                     </Link>
-                                    <div class="dropdown-divider"></div>
+                                    <div className="dropdown-divider"></div>
                                     <button 
                                         className="dropdown-item" 
                                         onClick={async () => {

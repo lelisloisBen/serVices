@@ -64,8 +64,8 @@ const Register = () => {
                 }).then(res => res.json())
                 .then(res => {
                     console.log(res);
-                    swal("ACCOUNT CREATED", "Welcome to JobTrial", "success", {
-                        button: "LOGIN NOW",
+                    swal("ACCOUNT CREATED", "Welcome to serVice", "success", {
+                        button: "YOU CAN LOGIN NOW",
                       }).then(() => {
                             history.push('/login');
                           });

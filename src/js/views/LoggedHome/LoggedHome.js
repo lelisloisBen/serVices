@@ -15,7 +15,7 @@ const LoggedHome = () => {
             <section className={styles.main}>
                 <div className="container mx-auto">
 
-                        <div className="card mb-3">
+                        <div className={["card mb-3", styles.homeCard].join(' ')}>
                             <img src={img} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Mila</h5>
@@ -37,7 +37,7 @@ const LoggedHome = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="card mb-3">
+                        <div className={["card mb-3", styles.homeCard].join(' ')}>
                             <img src={img2} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Anastasia</h5>
@@ -59,7 +59,7 @@ const LoggedHome = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="card mb-3">
+                        <div className={["card mb-3", styles.homeCard].join(' ')}>
                             <img src={img3} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Lia</h5>
@@ -81,7 +81,7 @@ const LoggedHome = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="card mb-3">
+                        <div className={["card mb-3", styles.homeCard].join(' ')}>
                             <img src={img4} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Nina</h5>

@@ -3,7 +3,7 @@ import styles from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <div className="main">
+        <div className={styles.main}>
             profile page
         </div>
     );

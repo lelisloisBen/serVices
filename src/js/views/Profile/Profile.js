@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import styles from './Profile.module.css';
 
+import girl1 from '../../../img/loggedHome/girl4.jpg';
+
 const Profile = () => {
 
     const [username, setUsername] = useState('');
@@ -64,6 +66,32 @@ const Profile = () => {
                 onChange={(e) => setDescription(e.target.value)}
             >
             </textarea>
+
+            <div className="row">
+                <div className="col-3 py-2">
+                    <img src={girl1} alt="girl1" class="img-thumbnail" />
+                </div>
+                <div className="col-3 py-2">
+                    <img src={girl1} alt="girl1" class="img-thumbnail" />
+                </div>
+                <div className="col-3 py-2">
+                    <img src={girl1} alt="girl1" class="img-thumbnail" />
+                </div>
+                <div className="col-3 py-2">
+                    <img src={girl1} alt="girl1" class="img-thumbnail" />
+                </div>
+                <div className="col-3 py-2">
+                    <img src={girl1} alt="girl1" class="img-thumbnail" />
+                </div>
+                <div className="col-3 py-2">
+                    <img src={girl1} alt="girl1" class="img-thumbnail" />
+                </div>
+                <div className="col-3 py-2">
+                    <img src={girl1} alt="girl1" class="img-thumbnail" />
+                </div>
+                
+                
+            </div>
 
         </div>
     );

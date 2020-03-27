@@ -4,7 +4,8 @@ import { UserContext } from '../../../UserContext';
 import styles from './Register.module.css';
 import swal from 'sweetalert';
 
-import worker from '../../../img/worker.png';
+// import worker from '../../../img/worker.png';
+import girl from '../../../img/loggedHome/girl2.jpg';
 
 const Register = () => {
     
@@ -83,7 +84,7 @@ const Register = () => {
     return (
         <section className={styles.section} style={{minHeight: windowHeight}}>
             
-                <img className={styles.coin} src={worker} alt="coin"/>
+                <img className={styles.coin} src={girl} alt="coin"/>
                 <br/>
                 <input 
                     className={styles.inputForm} 

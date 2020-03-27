@@ -50,6 +50,9 @@ const JobTrialNavbar = () => {
                                     <Link className="dropdown-item" to="/register" >
                                         <i class="fas fa-plus-square"></i> Customer
                                     </Link>
+                                    <Link className="dropdown-item" to="/profile" >
+                                        my profile
+                                    </Link>
                                     <div class="dropdown-divider"></div>
                                     <button 
                                         className="dropdown-item" 

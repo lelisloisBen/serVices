@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Profile.module.css';
 
 const Profile = () => {
+
+    const [username, setUsername] = useState('');
+    const [instagram, setInstagram] = useState('');
+    const [description, setDescription] = useState('');
+
     return (
         <div className={["container", styles.main].join(' ')}>
             <h1 className="text-center" >username</h1>
@@ -14,6 +19,8 @@ const Profile = () => {
                 name="name" 
                 id="username"
                 placeholder="username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
             />
 
             <br/>
@@ -26,6 +33,8 @@ const Profile = () => {
                 name="instagram" 
                 id="instagram"
                 placeholder="instagram"
+                value={instagram}
+                onChange={(e) => setInstagram(e.target.value)}
             />
 
             <br/>
@@ -51,6 +60,8 @@ const Profile = () => {
                 cols="30" 
                 rows="10"
                 placeholder="description"
+                value={description}
+                onChange={(e) => setDescription(e.target.value)}
             >
             </textarea>
 

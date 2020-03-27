@@ -1,5 +1,5 @@
 import React, { useState, useRef, useContext } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { UserContext } from '../../../UserContext';
 import styles from './Register.module.css';
 import swal from 'sweetalert';
@@ -130,14 +130,8 @@ const Register = () => {
                     className="myBtn"
                     onClick={registerFormHandler}
                 >
-                    REGISTER
+                    ADD NEW CUSTOMER
                 </button>
-
-                <br/>
-                <br/>
-                <Link to="/login" className={styles.forgotP}>
-                    Already have an account? Login here
-                </Link>
            
 
         </section>
